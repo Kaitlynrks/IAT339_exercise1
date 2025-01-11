@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#citations">Citations</a>
+      </nav>
+	</header>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <p>Look at this <a href="https://www.ducks.ca/" target="_blank">page about ducks</a>
+        </p>
+        <!--For this section, I referenced the in-class tutorial when creating this code-->
+         
+        <h4>Code used:</h4>
+          <code>
+            &lt;p&gt;Look at this &lt;a href="https://www.ducks.ca/" target="_blank"&gt;page about ducks&lt;/a&gt;
+            &lt;/p&gt;
+         </code>
+        <!-- for this section, I referenced stackoverflow: https://stackoverflow.com/questions/2820453/how-to-display-raw-html-code-on-an-html-page-->
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <label for="favduck">Favourite Duck?</label>
+        <input type="text" id="favduck" name="favduck">
+        <!-- For this section, I referenced the site hubspot and their layout for this prompt. Here is a link to the site I used: https://blog.hubspot.com/website/html-text-box#:~:text=Instead%2C%20you%20can%20create%20a,for%20attribute%20matching%20the%20id. -->
+
+        <h4>Code used:</h4>
+        <code>
+          &lt;label for=&quot;favduck&quot;&gt;Favourite Duck?&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;favduck&quot; name=&quot;favduck&quot;&gt;
+        </code>
+        
+      </section>
+
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <a href="https://birdfact.com/articles/where-do-ducks-sleep"><img src="img/sleepy.jpg" alt="a duck sleeping"height="263px" width="400px"></a>
+        <!--For this section I referenced the in class exercise-->
+
+        <h4>Code used:</h4>
+        <code>
+          <pre>
+&lt;a href=&quot;https://birdfact.com/articles/where-do-ducks-sleep&quot;&gt;
+&lt;img src=&quot;img/sleepy.jpg&quot; alt=&quot;a duck sleeping&quot; height=&quot;263px&quot; width=&quot;400px&quot;&gt;&lt;/a&gt;
+          </pre>
+        </code>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h3>What is the best kind of duck?</h3>
+        <h4>How do ducks sleep?</h4>
+        <h5>Duck abilities</h5>
+        <h6>What ducks eat</h6>
+        <!-- I did not use anything external for this section-->
+
+        <h4>Code used:</h4>
+        <code>
+          <pre>
+&lt;h3&gt;What is the best kind of duck?&lt;/h3&gt;
+&lt;h4&gt;How do ducks sleep?&lt;/h4&gt;
+&lt;h5&gt;Duck abilities&lt;/h5&gt;
+&lt;h6&gt;What ducks eat&lt;/h6&gt;
+            </pre>            
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>If you have ever spotted a flock of sleeping ducks, you might have noticed how some sleep standing on one or both legs. This is a common behavior amongst ducks who frequently sleep with one or both eyes open!</p>
+        <!-- I did not use anything external for this section expet for the text in the paragraph which is from: https://birdfact.com/articles/where-do-ducks-sleep -->
+
+        <h4>Code used:</h4>
+        <code>
+          &lt;p&gt;If you have ever spotted a flock of sleeping ducks, you might have noticed how some sleep standing on one or both legs. This is a common behavior amongst ducks who frequently sleep with one or both eyes open!&lt;/p&gt;
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+      </section>
+
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>
